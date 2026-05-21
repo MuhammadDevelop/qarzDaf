@@ -5,7 +5,7 @@ from typing import Optional
 from datetime import datetime
 from enum import Enum
 import motor.motor_asyncio
-from bson import ObjectId
+from pymongo import ObjectId
 
 app = FastAPI(title="Qarz Daftar API")
 
