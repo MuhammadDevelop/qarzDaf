@@ -1,0 +1,35 @@
+# Python vaqtinchalik fayllari (Kompilyatsiya qilingan kodlar)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual muhit (Virtual Environment) - Bularni GitHub'ga yuklash shart emas
+venv/
+.venv/
+env/
+.env_v/
+ENV/
+
+# Maxfiy ma'lumotlar (Ma'lumotlar bazasi parollari, maxfiy kalitlar)
+.env
+.env.*
+!.env.example
+
+# Sarlavhalar va IDE (Dasturlash muhitlari) sozlamalari
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Log fayllar (Xatoliklar va tizim yozuvlari)
+*.log
+logs/
+
+# Operatsion tizim fayllari
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
