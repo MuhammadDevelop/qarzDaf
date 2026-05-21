@@ -6,8 +6,8 @@ from typing import Optional
 from datetime import datetime
 from enum import Enum
 import motor.motor_asyncio
-from pymongo import ObjectId
-
+# yoki ba'zi versiyalarda:
+from bson.objectid import ObjectId
 app = FastAPI(title="Qarz Daftar API")
 
 # Frontend xavfsiz ulanishi uchun CORS sozlamasi
